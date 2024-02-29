@@ -15,6 +15,9 @@ cd copilot-petclinic
 java -jar target/*.jar
 ```
 
+> [!WARNING]  
+> If you are using Codespaces for this exercise please run `sudo chmod -R 777 /home/vscode/.m2` before you execute the following commands.
+
 You can then access the Petclinic at <http://localhost:8080/>.
 
 Or you can run it from Maven directly using the Spring Boot Maven plugin. If you do this, it will pick up changes that you make in the project immediately (changes to Java source files require a compile as well - most people use an IDE for this):
